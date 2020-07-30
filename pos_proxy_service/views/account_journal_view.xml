@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   
+    
+
+    <record model="ir.ui.view" id="fiscal_printer_journal_form">
+        <field name="name">fiscal.printer.journal.form</field>
+        <field name="model">account.journal</field>
+        <field name="inherit_id" ref="point_of_sale.view_account_journal_pos_user_form"/>
+        <field name="arch" type="xml">            
+            <data>                
+                <xpath expr="//field[@name='amount_authorized_diff']" position="after">
+                     <field name="payment_afip" required='1'/>
+                </xpath>                
+            </data>
+        </field>
+    </record>
+
+  
+
+</odoo>
