@@ -9,7 +9,7 @@ Módulos para odoo Argentina POS Impresores fiscales Epson y Hasar
 |HASAR|SMH/P-715F|AFIP|29/07/2020|
 
 
-V13.0
+V12.0
 
 Un Repositorio de la localización argentina.
 
