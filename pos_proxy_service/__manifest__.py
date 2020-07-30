@@ -43,7 +43,7 @@
 	'external_dependencies': {
    
     },
-        'price': 785,
+        'price': 495,
         'currency': 'EUR',
         'installable': True,
         'license': 'OPL-1',
