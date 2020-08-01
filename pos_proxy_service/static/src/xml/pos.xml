@@ -5,15 +5,17 @@
     <t t-extend="UsernameWidget">
 
         <t t-jquery='.username' t-operation='before'>
-            <span class="close_fiscal" style="float:right;
-    color:#DDD;
-    font-size:16px;
-    margin-right:32px;
-    font-style:normal;
-    cursor: pointer;
-    margin-left: 20px;">
+            <t t-if="widget.is_active_proxy()">
+                <span class="close_fiscal" style="float:right;
+                color:#DDD;
+                font-size:16px;
+                margin-right:32px;
+                font-style:normal;
+                cursor: pointer;
+                margin-left: 20px;">
                 Cierres Fiscales
-            </span>
+                </span>
+            </t>
         </t>
     </t>
     
