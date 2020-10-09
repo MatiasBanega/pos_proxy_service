@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="point_of_sale.template" xml:space="preserve">
+    
+
+    <t t-extend="UsernameWidget">
+
+        
+        <t t-jquery='.username' t-operation='before'>
+            <t t-if="widget.is_active_proxy()">
+                <span class="username close_fiscal" style="color: green;">CF</span>
+            </t> 
+        </t>
+        
+    </t>
+
+
+    
+    
+</templates>
