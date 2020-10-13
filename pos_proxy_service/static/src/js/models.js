@@ -290,13 +290,18 @@ models.PosModel = models.PosModel.extend({
             var payment_afip = 99;//Otras Formas de pago
 
             if (pay.payment_method && pay.payment_method.payment_afip) payment_afip = pay.payment_method.payment_afip;
-
+            var payment_method = pay.payment_method;
+            name = '';
+            if(payment_method){
+                name = payment_method.name;
+            }
+            
             var pay_vals = {
                 'codigo_forma_pago' : payment_afip,
                 'cantidad_cuotas': '',
                 'monto' : pay.amount,
                 'descripcion_cupones' : '',
-                'descripcion' : pay.name,
+                'descripcion' : name,
                 'descripcion_extra1' : '',
                 'descripcion_extra2' : ''
             }
@@ -339,4 +344,3 @@ models.PosModel = models.PosModel.extend({
 
 
 });
-
