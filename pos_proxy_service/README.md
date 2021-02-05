@@ -1,11 +1,7 @@
 <img alt="Odoo by pronexo.com" src="https://fotos.subefotos.com/c833facb26bb548e8b791d412ac0480co.png" />
-   :alt: pronexo.com
-   :target: https://www.pronexo.com
+pronexo.com - https://www.pronexo.com
 
-.. image:: https://img.shields.io/badge/license-AGPL--3-blue.png
-   :target: https://www.gnu.org/licenses/agpl
-   :alt: License: AGPL-3
-
+Módulos para odoo Argentina POS Impresores fiscales Epson y Hasar 
 
 Módulo para utilizar impresores fiscales Argentinos en Terminal de Punto de Venta - odoo Argentina POS 
 Instalacion: Copiar carpeta en addons de su odoo
@@ -19,7 +15,6 @@ Modelos soportados
 
 |EPSON|TM- T900FA|AFIP|29/07/2020||
 
-|HASAR|SMH/P-715F|AFIP|29/07/2020||
 
 
  
