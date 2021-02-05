@@ -8,10 +8,6 @@ Instalacion: Copiar carpeta en addons de su odoo
 
 
 Modelos soportados
-
-|Marca|Modelo    |R.G.|Fecha|
-
-|-----|----------|----|----------|
 |EPSON|TM- T900FA|AFIP|29/07/2020|
 
 
