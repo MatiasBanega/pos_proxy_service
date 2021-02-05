@@ -1,5 +1,4 @@
-.. |company| replace:: pronexo.com
-.. |company_logo| image:: http://fotos.subefotos.com/7107261ae57571ec94f0f2d7363aa358o.png
+<img alt="Odoo by pronexo.com" src="https://fotos.subefotos.com/c833facb26bb548e8b791d412ac0480co.png" />
    :alt: pronexo.com
    :target: https://www.pronexo.com
 
