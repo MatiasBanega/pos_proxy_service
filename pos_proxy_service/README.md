@@ -12,8 +12,7 @@ Modelos soportados
 |Marca|Modelo    |R.G.|Fecha|
 
 |-----|----------|----|----------|
-
-|EPSON|TM- T900FA|AFIP|29/07/2020||
+|EPSON|TM- T900FA|AFIP|29/07/2020|
 
 
 
